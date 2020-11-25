@@ -14,7 +14,7 @@ d3.json(geoData, function(data) {
 function magColor(depth) {
     return depth > 90 ? "red":
            depth > 70 ? "orange":
-           depth > 50 ? "yellow":
+           depth > 50 ? "orange":
            depth > 30 ? "blue":
            depth > 10 ? "gray":
                      "green"
